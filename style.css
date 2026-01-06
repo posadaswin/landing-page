@@ -13,4 +13,7 @@ a {
 
 body {
     font-family: Roboto, Verdana, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
