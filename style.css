@@ -81,3 +81,7 @@ div.main, div.hero {
     justify-content: space-between;
     align-items: center;
 }
+
+div.main div, div.hero div {
+    flex: 1;
+}
