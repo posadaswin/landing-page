@@ -192,7 +192,9 @@ div.content .second {
     border-radius: 10px;
 }
 
-
+.call-action .section {
+    width: fit-content;
+}
 
 .call-action .section div {
     padding: 0px;
