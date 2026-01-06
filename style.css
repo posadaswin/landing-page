@@ -19,3 +19,35 @@ body {
     /* for setting body height */
     height: 720px;
 }
+
+.header, .hero, .footer {
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+/* for styling header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .section .logo {
+    font-size: 24px;
+}
+
+.header .list {
+    display: flex;
+    gap: 8px;
+}
+
+.hero .section .head {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .section. .desc, .header .list {
+    font-size: 18px;
+    color:#e5e7eb
+}
