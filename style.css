@@ -63,7 +63,7 @@ div.footer {
     align-items: center;
 }
 
-/* for styling header parts */
+/* -- for styling header parts -- */
 
 div.main, div.hero {
     display: flex;
@@ -111,5 +111,40 @@ div.section button{
     font-size: 18px;
     color:#e5e7eb
 }
+
+/* -- for styling content parts -- */
+
+.first, .second, .third{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* for styling first section */
+
+div.content .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.first .title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.first .list {
+    display: flex;
+    gap: 10px; 
+}
+
+.list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 
 
