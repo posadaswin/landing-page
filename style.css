@@ -1,9 +1,5 @@
 /* style.css for index.html */
 
-body {
-    font-family: Roboto, Verdana, Tahoma, sans-serif;
-}
-
 ul {
     list-style-type: none;
 }
@@ -13,3 +9,8 @@ a {
     text-decoration: none;
 }
 
+/* -- for styling body element and its parts -- */
+
+body {
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
+}
