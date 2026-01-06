@@ -84,6 +84,14 @@ div.section div {
     margin: 5px;
 }
 
+div.section button{
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .main, .logo {
     font-size: 24px;
 }
