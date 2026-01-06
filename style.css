@@ -146,5 +146,24 @@ div.content .first{
     gap: 10px;
 }
 
+/* for styling second section */
 
+div.content .second {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
+.second .quote {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.second .quoter {
+    font-weight: bold;
+    align-self: flex-end;
+}
