@@ -57,6 +57,16 @@ div.footer {
 
 /* for styling header parts */
 
+div.main, div.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.main div, div.hero div {
+    flex: 1;
+}
+
 .main, .logo {
     font-size: 24px;
 }
@@ -76,12 +86,4 @@ div.footer {
     color:#e5e7eb
 }
 
-div.main, div.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-div.main div, div.hero div {
-    flex: 1;
-}
