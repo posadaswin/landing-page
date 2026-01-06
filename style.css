@@ -12,8 +12,9 @@ a {
 button {
     font-family: inherit;
     color: white;
-    background-color: blue;
-    border-color: blue;
+    background-color: rgb(76, 76, 250);
+    border: none;
+    border-radius: 10px;
 }
 
 /* -- for styling body element and its parts -- */
