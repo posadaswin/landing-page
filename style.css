@@ -25,6 +25,14 @@ body {
     background-color: #1f2937;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* set height to inherit the body's height */
+    height: inherit;
+}
+
 /* for styling header */
 
 .header {
