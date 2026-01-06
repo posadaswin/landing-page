@@ -57,7 +57,7 @@ div.footer {
 
 /* for styling header parts */
 
-.hero .section .logo {
+.main, .logo {
     font-size: 24px;
 }
 
