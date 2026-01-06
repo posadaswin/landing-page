@@ -9,6 +9,13 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-family: inherit;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
 /* -- for styling body element and its parts -- */
 
 body {
@@ -70,6 +77,11 @@ div.hero {
 
 div.main div, div.hero div {
     flex: 1;
+}
+
+div.section div {
+    padding: 5px;
+    margin: 5px;
 }
 
 .main, .logo {
