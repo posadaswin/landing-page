@@ -116,6 +116,11 @@ div.section button{
 
 /* -- for styling content parts -- */
 
+.first, .second {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .first, .second, .third{
     padding-top: 50px;
     padding-bottom: 50px;
