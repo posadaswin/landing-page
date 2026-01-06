@@ -72,7 +72,7 @@ div.footer {
     color:#e5e7eb
 }
 
-div.hero {
+div.main, div.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
