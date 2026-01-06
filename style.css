@@ -25,6 +25,14 @@ body {
     background-color: #1f2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -33,13 +41,7 @@ body {
     height: inherit;
 }
 
-/* for styling header */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/* for styling header parts */
 
 .hero .section .logo {
     font-size: 24px;
