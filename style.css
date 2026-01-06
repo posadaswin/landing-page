@@ -25,7 +25,7 @@ body {
     background-color: #1f2937;
 }
 
-.header {
+div.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ body {
     margin: 0px;
 }
 
-.content {
+div.content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,6 +41,14 @@ body {
     margin: 0px;
     /* set height to inherit the body's height */
     height: inherit;
+}
+
+div.footer {
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* for styling header parts */
