@@ -71,3 +71,9 @@ div.footer {
     font-size: 18px;
     color:#e5e7eb
 }
+
+div.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
