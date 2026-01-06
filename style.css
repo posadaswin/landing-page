@@ -3,3 +3,7 @@
 body {
     font-family: Roboto, Verdana, Tahoma, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
