@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     /* for setting body height */
-    height: 740px;
+    height: max-content;
     margin: 0;
 }
 
@@ -166,4 +166,35 @@ div.content .second {
 .second .quoter {
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* for styling third section */
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* style it similar to button */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right:  30px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.call-action .section div {
+    padding: 0px;
+    margin: 0px;
 }
