@@ -180,12 +180,12 @@ div.content .second {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 80px;
     /* style it similar to button */
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right:  30px;
+    padding-left: 50px;
+    padding-right:  50px;
     background-color: #3882F6;
     color: white;
     border: none;
@@ -194,9 +194,29 @@ div.content .second {
 
 .call-action .section {
     width: fit-content;
+    flex: 1
 }
 
 .call-action .section div {
     padding: 0px;
     margin: 0px;
+}
+
+.call-action .section .head {
+    font-weight: 700;
+}
+
+.call-action .section .desc {
+    font-size: 13px;
+}
+
+.call-action button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
