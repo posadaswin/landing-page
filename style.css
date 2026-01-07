@@ -80,6 +80,7 @@ div.main, div.hero {
 div.hero {
     padding-top: 100px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 div.main div, div.hero div {
