@@ -19,6 +19,8 @@ button {
     border-radius: 10px;
 }
 
+
+
 /* -- for styling body element and its parts -- */
 
 body {
@@ -64,6 +66,8 @@ div.footer {
     justify-content: center;
     align-items: center;
 }
+
+
 
 /* -- for styling header parts -- */
 
@@ -120,6 +124,8 @@ div.section button{
     border-radius: 10px;
     border-color: white;
 }
+
+
 
 /* -- for styling content parts -- */
 
@@ -242,6 +248,8 @@ div.content .second {
     padding-right: 20px;
 }
 
+
+
 /* -- for styling images -- */
 
 /* for styling header logo */
@@ -249,4 +257,18 @@ div.content .second {
 .logo img {
     width:50px;
     height:50px;
+}
+
+/* for styling header hero image */
+
+.hero .image img {
+    height: 250px;
+    width: 500px;
+}
+
+/* for stying imformation images */
+
+.title .list img {
+    width: 150px;
+    height: 150px;
 }
