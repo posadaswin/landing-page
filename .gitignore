@@ -2,3 +2,6 @@
 
 #ignore log files
 *.log
+
+# Ignore files exactly ending with 'log' (no extension)
+*log
