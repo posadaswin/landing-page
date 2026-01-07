@@ -241,3 +241,12 @@ div.content .second {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/* -- for styling images -- */
+
+/* for styling header logo */
+
+.logo img {
+    width:50px;
+    height:50px;
+}
